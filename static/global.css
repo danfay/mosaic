@@ -1,0 +1,87 @@
+html, body {
+   height: 120%;
+   margin: 0;
+   padding: 0;
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+   color: #333;
+   background-color: #fbdcdc;
+ }
+ 
+   body {
+      background: linear-gradient(to bottom, #fbdcdc 0%, #ffb3b3 100%);
+   }
+
+h1 {
+   font-size: 2.5em;
+   font-weight: 700;
+   margin: 50 0 20px 0;
+   text-align: center;
+ }
+
+ .container {
+   text-align: center;
+   width: 800px;
+   max-width: 800px;
+   margin: 50px auto;
+   height: 100%;
+   padding: 50 50px;
+   background-color: #fafafa;
+   border-radius: 20px;
+   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+   display: flex;
+   flex-direction: column;
+ }
+
+#txtTranscribe, #txtPrompt {
+   height: 60px;
+   margin: 20px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   resize: none;
+   font-size: 1.2em;
+   text-align: center;
+ }
+
+ #txtPrompt {
+   height: 120px;
+ }
+button {
+   margin-bottom: 20px;
+   width: 80px;
+   height: 80px;
+   background-color: #555555;
+   border: none;
+   border-radius: 50%;
+   color: white;
+   padding: 20px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 40px;
+   transition-duration: 0.4s;
+   cursor: pointer;
+ }
+ 
+   .btnSend:hover {
+      background-color: #999999;
+      color: white;
+   }
+
+ button:hover {
+   background-color: #ff0000;
+   color: white;
+ }
+
+ button:before {
+     content:"\f130";
+     font-family:"Font Awesome 5 Free";
+     font-weight:900;
+ }
+
+.btnSend:before {
+   content:"\2191";
+   font-family:"Font Awesome 5 Free";
+   font-weight:900;
+}
